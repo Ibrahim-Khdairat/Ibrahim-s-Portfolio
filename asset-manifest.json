@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5f74375e.chunk.css",
+    "main.js": "/static/js/main.dbef353b.chunk.js",
+    "main.js.map": "/static/js/main.dbef353b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f027f2bf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f027f2bf.js.map",
+    "static/js/2.22e3253b.chunk.js": "/static/js/2.22e3253b.chunk.js",
+    "static/js/2.22e3253b.chunk.js.map": "/static/js/2.22e3253b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.5f74375e.chunk.css.map": "/static/css/main.5f74375e.chunk.css.map",
+    "static/js/2.22e3253b.chunk.js.LICENSE.txt": "/static/js/2.22e3253b.chunk.js.LICENSE.txt",
+    "static/media/Ibrahim-Khdairat.89f79f84.pdf": "/static/media/Ibrahim-Khdairat.89f79f84.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f027f2bf.js",
+    "static/js/2.22e3253b.chunk.js",
+    "static/css/main.5f74375e.chunk.css",
+    "static/js/main.dbef353b.chunk.js"
+  ]
+}
