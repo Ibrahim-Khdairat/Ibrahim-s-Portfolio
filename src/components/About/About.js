@@ -1,3 +1,4 @@
+import  React from 'react'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import { about } from '../../portfolio'
@@ -28,7 +29,7 @@ const About = () => {
         )}
 
         {social && (
-          <>
+          <div>
             {social.github && (
               <a
                 href={social.github}
@@ -48,7 +49,7 @@ const About = () => {
                 <LinkedInIcon />
               </a>
             )}
-          </>
+          </div>
         )}
       </div>
     </div>
