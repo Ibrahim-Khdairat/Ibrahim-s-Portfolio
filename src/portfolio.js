@@ -36,10 +36,18 @@ const header = {
     {
       name: 'Nerd Academy',
       description:
-        'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+        'An easy place to take any online corse',
       stack: ["Javascript", "HTML",  "pure CSS"],
       sourceCode: 'https://github.com/Nerd-Academy/Online-Academy',
       livePreview: ' https://nerd-academy.github.io/Online-Academy/',
+    },
+    {
+      name: 'Portfolio',
+      description:
+        'Personal portfolio teamplete ( Only suitable for computer screen display - Chrome browser)',
+      stack: ["Javascript", "HTML",  "pure CSS"],
+      sourceCode: 'https://github.com/Ibrahim-Khdairat',
+      livePreview: 'https://ibrahim-khdairat.github.io/Ibrahim-Khdairat/',
     },
   ]
   

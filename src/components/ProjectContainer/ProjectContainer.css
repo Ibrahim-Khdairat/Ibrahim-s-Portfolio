@@ -5,6 +5,7 @@
     box-shadow: var(--shadow);
     transition: transform 0.2s linear;
   }
+
   
   .project:hover {
     transform: translateY(-7px);
@@ -31,3 +32,5 @@
   .project .link--icon {
     margin-left: 0.5em;
   }
+
+

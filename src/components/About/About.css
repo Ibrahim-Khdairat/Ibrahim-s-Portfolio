@@ -6,10 +6,16 @@
   
   .about__name {
     color: var(--clr-primary);
+    position: relative;
+    animation-name: aboutName;
+    animation-duration: 4s;
   }
   
   .about__role {
     margin-top: 1.2em;
+    /* white-space:nowrap;
+    overflow: hidden;
+    animation: type 4s steps(60, end);  */
   }
   
   .about__desc {
@@ -36,3 +42,42 @@
       margin-top: 2em;
     }
   }
+
+
+  .about__me{
+    position: relative;
+    animation-name: aboutMe;
+    animation-duration: 4s;
+  }
+
+  @keyframes aboutMe {
+    0%   { left:-100px; top:0px; opacity: 0%}
+    100%  { left:0px; top:0px;opacity: 100%}
+   
+  }
+
+   @keyframes aboutName {
+    0%   { right: -100px; top:0px; opacity: 0%}
+    100%  { right:0px; top:0px;opacity: 100%}
+   
+  }
+
+   h1 {
+     position: relative;
+    white-space:nowrap;
+    overflow: hidden;
+   /* added animation property to show the character one at a time*/
+    animation: type 4s steps(60, end); 
+
+  }
+
+ 
+
+  @keyframes type{ 
+    from { 
+         width: 0%; 
+         } 
+    to { 
+          width: 100%;
+          }
+     }
