@@ -4,11 +4,17 @@
     text-align: center;
     box-shadow: var(--shadow);
     transition: transform 0.2s linear;
+    /* transition: color 2s, background-color 2s, transform 1s linear; */
   }
 
-  
+  .project h3 {
+    color:var(--clr-primary) ;
+  }
   .project:hover {
     transform: translateY(-7px);
+background-color: rgb(241, 240, 240);
+    /* transform:rotatey(360deg); */
+
   }
   
   .project__description {
